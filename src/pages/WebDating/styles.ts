@@ -72,7 +72,15 @@ export const Content = styled.div`
 `
 
 export const Images = styled.div`
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  img {
+    width: 9.5rem;
+    height: 9.5rem;
+    border: 5px solid white;
+ }
 `
 
 export const Header = styled.div`

@@ -1,4 +1,6 @@
 import * as Element from './styles'
+import ImageGirl from '../../assets/imgGirl.jpg'
+import ImageMen from '../../assets/imgMen.jpg'
 
 export function WebDating() {
   return (
@@ -11,6 +13,8 @@ export function WebDating() {
 
         <Element.Content>
           <Element.Images>
+            <img src={ImageMen} alt="" />
+            <img src={ImageGirl} alt="" />
           </Element.Images>
           <Element.Header>
             <span>Casado Com <strong>Rasta Loko #34234</strong></span>
